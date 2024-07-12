@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 700px;
+    background-color: whitesmoke;
+    height: 600px;
+}
+
+.head{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 65, 31);
+    margin-top: 40px;
+}
+
+.head h1{
+    width: 80%;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+table{
+    height: 400px;
+    width: 100%;
+}
+
+td{
+    font-weight: bold;
+}
+
+td input{
+    width: 90%;
+    height: 20px;
+}
+
+.two{
+    width: 300px;
+    /* display: block; */
+    margin-right: 10px;
+}
+
+.three{
+    width: 200px;
+}
+
+
+
